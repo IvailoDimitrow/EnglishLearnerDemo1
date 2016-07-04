@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="2.7"
+       android:orientation="vertical">
+       <TextView
+           android:id="@+id/had_my_car_washed"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="1. I had my car washed"
+           android:textSize="19dp"
+           />
+       <TextView
+           android:id="@+id/had_my_grass_cut"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2. They had my grass cut"
+           android:textSize="19dp"
+           android:layout_alignParentTop="true"
+           android:layout_toRightOf="@+id/documents_typed"
+           android:layout_above="@+id/documents_typed"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentEnd="true" />
+       <TextView
+           android:id="@+id/had_the_fridge_repaired"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="3. She had the fridge repaired"
+           android:textSize="19dp"
+           android:layout_below="@+id/documents_typed"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true" />
+       <TextView
+           android:id="@+id/documents_typed"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="19dp"
+           android:text="4. We had the documents typed"
+           android:layout_below="@+id/had_my_car_washed"/>
+       <TextView
+           android:id="@+id/windows_cleaned"
+           android:textSize="19dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="5. I had the windows cleaned"
+     />
+
+
+   </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/fill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill in:"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/first_sentence"
+            android:layout_below="@+id/fill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I washed my car.(I did the action)"
+            android:textSize="19dp"/>
+        <TextView
+            android:id="@+id/choice_1"
+            android:layout_below="@+id/first_sentence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ....................  "
+            android:textSize="19dp"/>
+        <TextView
+            android:id="@+id/second_sentence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I cleaned the windows(I did the action)"
+            android:layout_below="@+id/choice_1"
+            android:textSize="19dp"/>
+        <TextView
+            android:id="@+id/choice_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ....................  "
+            android:layout_below="@id/second_sentence"
+            android:textSize="19dp"/>
+        <TextView
+            android:id="@+id/thrid_sentence"
+            android:layout_below="@+id/choice_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="She repaired the fridge(She did the action)"
+            android:textSize="19dp"/>
+        <TextView
+            android:id="@+id/choice_3"
+            android:layout_below="@+id/thrid_sentence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ....................  "
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/forth_sentence"
+            android:text="They cut their grass cut(They did the action)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/choice_3"
+            android:textSize="19dp"/>
+        <TextView
+            android:id="@+id/choice_4"
+            android:layout_below="@+id/forth_sentence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ....................  "
+            android:textSize="19dp"/>
+        <TextView
+            android:id="@+id/fifth_sentence"
+            android:layout_below="@+id/choice_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We typed the documents(We did the action)"
+            android:textSize="19dp"/>
+        <TextView
+            android:id="@+id/choice_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ....................  "
+            android:textSize="19dp"
+            android:layout_below="@+id/fifth_sentence"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,5 +1,6 @@
 package com.example.acer.englishlearner;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -24,13 +25,14 @@ public class Main2Activity extends AppCompatActivity {
         recView.addOnItemTouchListener(
                 new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {
                     @Override public void onItemClick(View view, int position) {
+                        if(position == 0){
+                            Intent intent = new Intent(Main2Activity.this, MainActivityFragmentGrammar.class);
+                            startActivity(intent);
+                        }
                         if(position == 1){
 
                         }
-                        if(position == 2){
-
-                        }
-                        if (position == 3){
+                        if (position == 2){
 
                         }
                     }
@@ -41,11 +43,11 @@ public class Main2Activity extends AppCompatActivity {
         recView.setLayoutManager(new LinearLayoutManager(this));
     }
     public void data(){
-        StarterData causative = new StarterData( R.drawable.leaf,"Causative form");
+        StarterData causative = new StarterData(R.drawable.images2,"Causative form");
         list.add(causative);
-        StarterData passive = new StarterData( R.drawable.leaf,"Passive");
+        StarterData passive = new StarterData( R.drawable.images2,"Passive");
         list.add(passive);
-        StarterData modalVerbs = new StarterData( R.drawable.leaf,"Modal Verbs");
+        StarterData modalVerbs = new StarterData( R.drawable.images2,"Modal Verbs");
         list.add(modalVerbs);
     }
 }

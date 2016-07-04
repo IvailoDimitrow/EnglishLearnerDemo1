@@ -1,5 +1,6 @@
 package com.example.acer.englishlearner;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -21,13 +22,15 @@ public class MainActivity extends AppCompatActivity {
         recView.addOnItemTouchListener(
                 new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {
                     @Override public void onItemClick(View view, int position) {
-                       if(position == 1){
-
+                       if(position == 0){
+                           Intent intent = new Intent(MainActivity.this, Main2Activity.class);
+                           startActivity(intent);
                        }
-                        if(position == 2){
-
+                        if(position == 1){
+                            Intent intent = new Intent(MainActivity.this, Main3Activity.class);
+                            startActivity(intent);
                         }
-                        if (position == 3){
+                        if (position == 2){
                             
                         }
                     }
@@ -40,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
     public void data(){
         StarterData grammar = new StarterData(R.drawable.images,"Grammar");
         list.add(grammar);
-        StarterData writting = new StarterData( R.drawable.images,"Writting");
+        StarterData writting = new StarterData(R.drawable.images,"Writting");
         list.add(writting);
-        StarterData dictionary = new StarterData( R.drawable.images,"Dictionary");
+        StarterData dictionary = new StarterData(R.drawable.images,"Dictionary");
         list.add(dictionary);
     }
 }

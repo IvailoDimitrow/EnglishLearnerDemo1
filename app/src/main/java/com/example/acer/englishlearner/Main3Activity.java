@@ -22,13 +22,13 @@ public class Main3Activity extends AppCompatActivity {
         recView.addOnItemTouchListener(
                 new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {
                     @Override public void onItemClick(View view, int position) {
+                        if(position == 0){
+
+                        }
                         if(position == 1){
 
                         }
-                        if(position == 2){
-
-                        }
-                        if (position == 3){
+                        if (position == 2){
 
                         }
                     }

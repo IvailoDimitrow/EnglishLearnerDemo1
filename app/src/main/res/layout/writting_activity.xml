@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ImageView
+        android:layout_centerVertical="true"
         android:id="@+id/writting_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/leaf3"
     />
     <TextView
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/writting_image"
         android:id="@+id/writting_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="text"
-        android:textSize="80dp"/>
-</LinearLayout>
+        android:textSize="60dp"/>
+</RelativeLayout>

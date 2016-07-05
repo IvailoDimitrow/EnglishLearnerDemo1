@@ -8,13 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
@@ -22,8 +16,7 @@
         <activity android:name=".Main3Activity" />
         <activity android:name=".MainActivityFragmentGrammar" />
         <activity android:name=".SingUpActivity" />
-        <activity android:name=".SingUPActivity" />
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".SingInActivity"></activity>
     </application>
 
 </manifest>

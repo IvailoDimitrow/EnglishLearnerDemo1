@@ -20,7 +20,11 @@
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Main3Activity" />
-        <activity android:name=".MainActivityFragmentGrammar"></activity>
+        <activity android:name=".MainActivityFragmentGrammar" />
+        <activity android:name=".SingUpActivity" />
+        <activity android:name=".SingUp" />
+        <activity android:name=".SingUPActivity" />
+        <activity android:name=".HomeActivity"></activity>
     </application>
 
 </manifest>

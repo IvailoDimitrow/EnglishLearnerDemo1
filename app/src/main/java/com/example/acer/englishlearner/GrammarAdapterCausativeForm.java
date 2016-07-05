@@ -22,7 +22,7 @@ public class GrammarAdapterCausativeForm extends FragmentPagerAdapter {
             case 1:
                 return new FragmentTwo();
             case 2:
-                return new FragmentOne();
+                return new FragmentThree();
 
             default:
                 break;

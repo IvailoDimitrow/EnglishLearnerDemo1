@@ -6,7 +6,7 @@
    <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent"
-       android:layout_weight="2.7"
+       android:layout_weight="4"
        android:orientation="vertical">
        <TextView
            android:id="@+id/had_my_car_washed"
@@ -42,13 +42,7 @@
            android:textSize="19dp"
            android:text="4. We had the documents typed"
            android:layout_below="@+id/had_my_car_washed"/>
-       <TextView
-           android:id="@+id/windows_cleaned"
-           android:textSize="19dp"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:text="5. I had the windows cleaned"
-     />
+
 
 
    </LinearLayout>
@@ -61,78 +55,101 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Fill in:"
+            android:textSize="25dp"
+        />
+        <TextView
+            android:layout_below="@+id/fill"
+            android:id="@+id/first_sentence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" I washed my car.(I did the action)"
             android:textSize="20dp"/>
         <TextView
-            android:id="@+id/first_sentence"
-            android:layout_below="@+id/fill"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="I washed my car.(I did the action)"
-            android:textSize="19dp"/>
-        <TextView
             android:id="@+id/choice_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ........... "
             android:layout_below="@+id/first_sentence"
+            android:textSize="20dp"/>
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" ....................  "
-            android:textSize="19dp"/>
+            android:background="@drawable/canstock14347143"
+            android:layout_below="@+id/first_sentence"
+            android:layout_toRightOf="@+id/choice_1"
+            android:layout_toEndOf="@+id/choice_1" />
         <TextView
-            android:id="@+id/second_sentence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="I cleaned the windows(I did the action)"
-            android:layout_below="@+id/choice_1"
-            android:textSize="19dp"/>
+            android:text=" We typed the documents.(We did the action)"
+            android:textSize="19dp"
+            android:id="@+id/second_sentence"
+            android:layout_below="@+id/choice_1" />
         <TextView
             android:id="@+id/choice_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" ....................  "
-            android:layout_below="@id/second_sentence"
-            android:textSize="19dp"/>
-        <TextView
-            android:id="@+id/thrid_sentence"
-            android:layout_below="@+id/choice_2"
+            android:text=" ........... "
+            android:textSize="20dp"
+            android:layout_below="@+id/second_sentence"/>
+        <ImageButton
+            android:id="@+id/imgbtn_second"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="She repaired the fridge(She did the action)"
-            android:textSize="19dp"/>
+            android:background="@drawable/canstock14347143"
+            android:layout_below="@+id/second_sentence"
+            android:layout_toRightOf="@+id/choice_2"
+            android:layout_toEndOf="@+id/choice_2" />
+      <TextView
+          android:id="@+id/third_sentence"
+          android:layout_below="@+id/choice_2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" She repaired the fridge(She did the action)"
+          android:textSize="20dp"/>
         <TextView
             android:id="@+id/choice_3"
-            android:layout_below="@+id/thrid_sentence"
+            android:layout_below="@+id/third_sentence"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" ....................  "
+            android:text=" ........... "
+            android:textSize="20dp"/>
+        <ImageButton
+            android:id="@+id/imgbtn_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/canstock14347143"
+            android:layout_below="@+id/third_sentence"
+            android:layout_toRightOf="@+id/choice_3"
+            android:layout_toEndOf="@+id/choice_3" />
+        <TextView
+            android:id="@+id/fourth_sentence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" They cut their grass.(They cut their grass)"
             android:textSize="20dp"
+            android:layout_below="@+id/choice_3"
             />
         <TextView
-            android:id="@+id/forth_sentence"
-            android:text="They cut their grass cut(They did the action)"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/choice_3"
-            android:textSize="19dp"/>
-        <TextView
             android:id="@+id/choice_4"
-            android:layout_below="@+id/forth_sentence"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" ....................  "
-            android:textSize="19dp"/>
-        <TextView
-            android:id="@+id/fifth_sentence"
-            android:layout_below="@+id/choice_4"
+            android:text=" ........... "
+            android:textSize="20dp"
+            android:layout_below="@+id/fourth_sentence"/>
+        <ImageButton
+            android:id="@+id/imgbtn_fourth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="We typed the documents(We did the action)"
-            android:textSize="19dp"/>
-        <TextView
-            android:id="@+id/choice_5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" ....................  "
-            android:textSize="19dp"
-            android:layout_below="@+id/fifth_sentence"/>
+            android:background="@drawable/canstock14347143"
+            android:layout_below="@+id/fourth_sentence"
+            android:layout_toRightOf="@+id/choice_4"
+            android:layout_toEndOf="@+id/choice_4" />
+
+
 
     </RelativeLayout>
 

@@ -39,11 +39,11 @@ public class Main3Activity extends AppCompatActivity {
         recView.setLayoutManager(new LinearLayoutManager(this));
     }
     public void data(){
-        StarterData essay = new StarterData( R.drawable.leaf3,"Grammar");
+        StarterData essay = new StarterData( R.drawable.leaf3,"Essay");
         list.add(essay);
-        StarterData report = new StarterData( R.drawable.leaf3,"Writting");
+        StarterData report = new StarterData( R.drawable.leaf3,"Report");
         list.add(report);
-        StarterData story = new StarterData( R.drawable.leaf3,"Dictionary");
+        StarterData story = new StarterData( R.drawable.leaf3,"Story");
         list.add(story);
     }
 }

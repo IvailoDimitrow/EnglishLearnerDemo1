@@ -81,7 +81,6 @@ public class HomeActivity extends Activity
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        // Close The Database
         loginDataBaseAdapter.close();
     }
 }

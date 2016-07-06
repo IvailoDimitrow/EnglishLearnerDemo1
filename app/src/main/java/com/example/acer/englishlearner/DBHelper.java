@@ -20,6 +20,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     public DBHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
+        open();
     }
 
 
@@ -52,7 +53,7 @@ public class DBHelper extends SQLiteOpenHelper {
         database.insert(DB_TABLE_NODES,null,cv);
     }
     public Cursor getNodeValues(){
-        return this.database.query(DB_TABLE_NODES, new String[]{KEY_PASSWORDS,KEY_NAME},
+        return this.database.query(DB_TABLE_NODES, new String[]{KEY_PASSWORDS, KEY_NAME},
                 null, null, null, null, null);
     }
 }

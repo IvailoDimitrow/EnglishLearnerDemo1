@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Essay tips:"
+        android:textStyle="italic"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick a topic"
+        android:textStyle="italic"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You may have your topic assigned, or you may be given free reign to write on the subject of your choice. If you are given the topic, you should think about the type of paper that you want to produce. Should it be a general overview of the subject or a specific analysis? Narrow your focus if necessary."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:text="Write the body"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The body of your essay argues, explains or describes your topic. Each main idea that you wrote in your outline will become a separate section within the body of your essay."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Write the introduction"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Now that you have developed your thesis and the overall body of your essay, you must write an introduction. The introduction should attract the reader’s attention and show the focus of your essay."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="Write the conclusion"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="The conclusion brings closure of the topic and sums up your overall ideas while providing a final perspective on your topic. Your conclusion should consist of three to five strong sentences. Simply review your main points and provide reinforcement of your thesis."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

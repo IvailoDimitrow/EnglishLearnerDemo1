@@ -62,7 +62,7 @@
             android:id="@+id/first_sentence"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" I washed my car.(I did the action)"
+            android:text=" I washed my car."
             android:textSize="20dp"/>
         <TextView
             android:id="@+id/choice_1"
@@ -75,16 +75,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/canstock14347143"
-            android:layout_below="@+id/first_sentence"
-            android:layout_toRightOf="@+id/choice_1"
-            android:layout_toEndOf="@+id/choice_1" />
+            android:layout_alignBottom="@+id/first_sentence"
+            android:layout_toRightOf="@+id/first_sentence"
+            android:layout_toEndOf="@+id/first_sentence" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" We typed the documents.(We did the action)"
+            android:text=" We typed the documents."
             android:textSize="19dp"
             android:id="@+id/second_sentence"
             android:layout_below="@+id/choice_1" />
@@ -100,15 +100,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/canstock14347143"
-            android:layout_below="@+id/second_sentence"
-            android:layout_toRightOf="@+id/choice_2"
-            android:layout_toEndOf="@+id/choice_2" />
+            android:layout_above="@+id/choice_2"
+            android:layout_toRightOf="@+id/second_sentence"
+            android:layout_toEndOf="@+id/second_sentence" />
       <TextView
           android:id="@+id/third_sentence"
           android:layout_below="@+id/choice_2"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text=" She repaired the fridge(She did the action)"
+          android:text=" She repaired the fridge."
           android:textSize="20dp"/>
         <TextView
             android:id="@+id/choice_3"
@@ -122,14 +122,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/canstock14347143"
-            android:layout_below="@+id/third_sentence"
-            android:layout_toRightOf="@+id/choice_3"
-            android:layout_toEndOf="@+id/choice_3" />
+            android:layout_alignTop="@+id/third_sentence"
+            android:layout_toRightOf="@+id/imgbtn_fourth"
+            android:layout_toEndOf="@+id/imgbtn_fourth" />
         <TextView
             android:id="@+id/fourth_sentence"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" They cut their grass.(They cut their grass)"
+            android:text=" They cut their grass."
             android:textSize="20dp"
             android:layout_below="@+id/choice_3"
             />
@@ -145,9 +145,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/canstock14347143"
-            android:layout_below="@+id/fourth_sentence"
-            android:layout_toRightOf="@+id/choice_4"
-            android:layout_toEndOf="@+id/choice_4" />
+            android:layout_alignBottom="@+id/fourth_sentence"
+            android:layout_toRightOf="@+id/fourth_sentence"
+            android:layout_toEndOf="@+id/fourth_sentence" />
 
 
 

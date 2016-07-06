@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Story"
+       android:textSize="35sp"
+       android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theme:"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A theme is something important the story tries to tell us—something that might help us in our own lives. Not every story has a theme, but it’s best if it does."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plot:"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plot is most often about a conflict or struggle that the main character goes through. The conflict can be with another character, or with the way things are, or with something inside the character, like needs or feelings."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Story Structure:"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decide about writing the story either in “first person” or in “third person.” Third-person pronouns are “he,” “she,” and “it”—so writing in third person means telling a story as if it’s all about other people. The first-person pronoun is “I”—so writing in first person means telling a story as if it happened to you."/>
+</LinearLayout>

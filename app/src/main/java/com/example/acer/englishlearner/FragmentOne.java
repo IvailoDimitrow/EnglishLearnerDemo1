@@ -15,7 +15,7 @@ public class FragmentOne extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.frame_causativeform_one_grammar,container,false);
+        return inflater.inflate(R.layout.essay_fragment,container,false);
     }
 
 

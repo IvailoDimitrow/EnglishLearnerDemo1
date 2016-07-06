@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. _________ I have more cheese on my sandwich?"
+        android:textSize="15dp"/>
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radio_modal_verbs1">
+        <RadioButton
+            android:id="@+id/radio_answear1_verbs1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Could"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/radio_answear2_verbs1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Would"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.You _________ eat more vegetables."
+        android:textSize="15dp"/>
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radio_modal_verbs2">
+        <RadioButton android:id="@+id/radio_answear1_verbs2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Should"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/radio_answear2_verbs2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Might"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.I _________ like to buy the same television for my house."
+        android:textSize="15dp"/>
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radio_modal_verbs3">
+        <RadioButton android:id="@+id/radio_answear1_verbs3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Have to"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/radio_answear2_verbs3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Would"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. _________ I have a coffee please?"
+        android:textSize="15dp"/>
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radio_modal_verbs4">
+        <RadioButton android:id="@+id/radio_answear1_verbs4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="May"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/radio_answear2_verbs4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Would"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. _________ I have a coffee please?"
+        android:textSize="15dp"/>
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radio_modal_verbs5">
+        <RadioButton android:id="@+id/radio_answear1_verbs5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Should not"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/radio_answear2_verbs5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Must not"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:"/>
+    <TextView
+        android:id="@+id/score_modalverbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="18sp"/>
+</LinearLayout>

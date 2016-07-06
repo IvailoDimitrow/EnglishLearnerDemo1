@@ -30,10 +30,12 @@ public class Main2Activity extends AppCompatActivity {
                             startActivity(intent);
                         }
                         if(position == 1){
-
+                            Intent intent = new Intent(Main2Activity.this, GrammarPassive.class);
+                            startActivity(intent);
                         }
                         if (position == 2){
-
+                            Intent intent = new Intent(Main2Activity.this, GrammarPassive.class);
+                            startActivity(intent);
                         }
                     }
                 })

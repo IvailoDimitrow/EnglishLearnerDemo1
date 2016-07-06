@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Essay Structure:"
+       android:textStyle="italic"
+       android:textSize="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main points:"
+        android:textStyle="italic"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:text="1.All paragraphs should be focused: they should discuss only one major point. That point should connect with the overall focus of the essay "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.The major point of a paragraph is often called the controlling idea. Every paragraph should have a different controlling idea, each one discussing one aspect or part of the overall essay."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="Support:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48sp"
+        android:text="1.The largest part of any body paragraph is the support: explanations, evidence, and examples."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Explanations use logic to fully explain the point raised in the topic sentence. It is not enough to just explain an idea, however: you need to show that outside evidence supports it as well."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:text="Transitions"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="1.Transitions are essential for maintaining momentum in your essay and showing the reader how all the ideas fit together."
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -26,10 +26,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Sign In" />
-    <Button
-        android:id="@+id/buttonOk"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Ok" />
+
+
 
 </LinearLayout>

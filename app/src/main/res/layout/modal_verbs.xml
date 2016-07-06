@@ -70,4 +70,10 @@
         android:text="There are any tomatoes in the fridge.You need  buy some."
         android:textSize="15dp"
         />
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>

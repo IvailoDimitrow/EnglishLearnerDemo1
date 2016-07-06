@@ -5,7 +5,6 @@
     android:orientation="vertical"
     android:gravity="center"
      >
-
     <EditText
         android:id="@+id/editTextUserName"
         android:hint="User Name"
@@ -13,33 +12,16 @@
         android:layout_height="wrap_content"
         >
     </EditText>
-
     <EditText
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword" />
-
-    <EditText
-        android:id="@+id/editTextConfirmPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Confirm Password"
-        android:inputType="textPassword" />
-
     <Button
         android:id="@+id/buttonCreateAccount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Create Account"
         android:layout_marginBottom="60dp" />
-    <Button
-        android:id="@+id/btn_ok"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ok"
-        />
-
-
 </LinearLayout>

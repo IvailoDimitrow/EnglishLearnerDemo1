@@ -18,7 +18,7 @@ public class FragmentTwo extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.frame_causativeform_second, container, false);
+        return inflater.inflate(R.layout.essay_tips_fragment, container, false);
     }
 }
 

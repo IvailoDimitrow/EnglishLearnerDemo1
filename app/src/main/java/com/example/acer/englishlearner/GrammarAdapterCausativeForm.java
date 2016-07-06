@@ -21,9 +21,6 @@ public class GrammarAdapterCausativeForm extends FragmentPagerAdapter {
                 return new FragmentOne();
             case 1:
                 return new FragmentTwo();
-            case 2:
-                return new FragmentThree();
-
             default:
                 break;
         }

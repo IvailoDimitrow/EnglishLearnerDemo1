@@ -26,8 +26,6 @@
         <activity android:name=".PassiveTransformations" />
         <activity android:name=".ModalVerbs" />
         <activity android:name=".ModalVerbsTest" />
-        <activity android:name=".SingInActivity" />
-        <activity android:name=".SignUp"></activity>
     </application>
 
 </manifest>

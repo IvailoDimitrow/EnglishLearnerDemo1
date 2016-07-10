@@ -40,20 +40,22 @@ public class DBHelper extends SQLiteOpenHelper {
 
     private  String createMuseumTable(){
         return "CREATE TABLE IF NOT EXISTS " + DB_TABLE_NODES + " (_id INTEGER PRIMARY KEY AUTOINCREMENT, "
-                + KEY_PASSWORDS + " TEXT, "
-                + KEY_NAME + " TEXT);";
+                + KEY_NAME + " TEXT, "
+                + KEY_PASSWORDS + " TEXT);";
     }
     public void open(){
         database = this.getWritableDatabase();
     }
     public void insertNode(Node node){
+        open();
         ContentValues cv = new ContentValues();
-        cv.put(KEY_PASSWORDS, node.getPassword());
-        cv.put(KEY_NAME, node.getName());
+        cv.put(KEY_NAME, node.getPassword());
+        cv.put(KEY_PASSWORDS, node.getName());
         database.insert(DB_TABLE_NODES,null,cv);
+
     }
     public Cursor getNodeValues(){
-        return this.database.query(DB_TABLE_NODES, new String[]{KEY_PASSWORDS, KEY_NAME},
+        return this.database.query(DB_TABLE_NODES, new String[]{KEY_NAME, KEY_PASSWORDS},
                 null, null, null, null, null);
     }
 }

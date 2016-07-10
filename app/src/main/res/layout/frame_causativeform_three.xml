@@ -5,7 +5,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1.You should .......... a long time ago"
+        android:text="1.We usually .......... every two years."
         android:textSize="15dp"/>
     <RadioGroup
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -16,18 +16,18 @@
         <RadioButton android:id="@+id/radio_pirates1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="pirates"
+            android:text="have the bedrooms redecoted"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton android:id="@+id/radio_ninjas1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ninja"
+            android:text="had had the bedrooms redecoted"
             android:onClick="onRadioButtonClicked"/>
     </RadioGroup>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2.You should .......... a long time ago"
+        android:text="2.She isn't making her own wedding dress.She ... by a dressing designer ."
         android:textSize="15dp"/>
     <RadioGroup
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -38,18 +38,18 @@
         <RadioButton android:id="@+id/radio_pirates2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="pirates"
+            android:text="is having it made"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton android:id="@+id/radio_ninjas2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ninja"
+            android:text="has it made"
             android:onClick="onRadioButtonClicked"/>
     </RadioGroup>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3.You should .......... a long time ago"
+        android:text="3.Alex didn't fix his car himself,Alex  .... at the garage."
         android:textSize="15dp"/>
     <RadioGroup
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -60,18 +60,18 @@
         <RadioButton android:id="@+id/radio_pirates3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="pirates"
+            android:text="has it fixed"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton android:id="@+id/radio_ninjas3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ninja"
+            android:text="had it fixed"
             android:onClick="onRadioButtonClicked"/>
     </RadioGroup>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="4.You should .......... a long time ago"
+        android:text="4.Your hair is too long. You need ...... ."
         android:textSize="15dp"/>
     <RadioGroup
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -82,18 +82,18 @@
         <RadioButton android:id="@+id/radio_pirates4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="pirates"
+            android:text="have  it cut"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton android:id="@+id/radio_ninjas4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ninja"
+            android:text="to have it cut"
             android:onClick="onRadioButtonClicked"/>
     </RadioGroup>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="5.You should .......... a long time ago"
+        android:text="5.......... from your house ."
         android:textSize="15dp"/>
     <RadioGroup
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -104,16 +104,23 @@
         <RadioButton android:id="@+id/radio_pirates5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="pirates"
+            android:text="have you ever had anything stolen"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton android:id="@+id/radio_ninjas5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ninja"
+            android:text="had you ever have anything stolen"
             android:onClick="onRadioButtonClicked"/>
     </RadioGroup>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/score"/>
+        android:text="Score:"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="0"/>
+
 </LinearLayout>

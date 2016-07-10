@@ -34,7 +34,7 @@ public class Main2Activity extends AppCompatActivity {
                             startActivity(intent);
                         }
                         if (position == 2){
-                            Intent intent = new Intent(Main2Activity.this, GrammarPassive.class);
+                            Intent intent = new Intent(Main2Activity.this, ModalVerbs.class);
                             startActivity(intent);
                         }
                     }

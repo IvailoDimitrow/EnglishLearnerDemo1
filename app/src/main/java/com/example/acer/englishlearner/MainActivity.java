@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.webkit.WebView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
                             startActivity(intent);
                         }
                         if (position == 2){
-                            
+                            Intent intent = new Intent(MainActivity.this, WebviewDictionary.class);
+                            startActivity(intent);
                         }
                     }
                 })

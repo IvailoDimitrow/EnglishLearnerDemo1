@@ -26,7 +26,7 @@ public class Main2Activity extends AppCompatActivity {
                 new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {
                     @Override public void onItemClick(View view, int position) {
                         if(position == 0){
-                            Intent intent = new Intent(Main2Activity.this, MainActivityFragmentGrammar.class);
+                            Intent intent = new Intent(Main2Activity.this, GrammarCausativeFormActivity.class);
                             startActivity(intent);
                         }
                         if(position == 1){

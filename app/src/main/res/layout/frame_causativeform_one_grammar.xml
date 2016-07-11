@@ -66,4 +66,9 @@
         android:text="(I went to the hairdresser)"
         android:textSize="15dp"
         android:textStyle="italic"/>
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"/>
 </LinearLayout>

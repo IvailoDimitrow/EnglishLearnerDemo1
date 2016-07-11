@@ -72,6 +72,7 @@
             android:layout_below="@+id/first_sentence"
             android:textSize="20dp"/>
         <ImageButton
+            android:id="@+id/imgbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/canstock14347143"
@@ -80,7 +81,8 @@
             android:layout_toEndOf="@+id/first_sentence" />
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -148,6 +150,14 @@
             android:layout_alignBottom="@+id/fourth_sentence"
             android:layout_toRightOf="@+id/fourth_sentence"
             android:layout_toEndOf="@+id/fourth_sentence" />
+        <Button
+            android:text="Next"
+            android:id="@+id/btn1_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/choice_4"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_toEndOf="@+id/textView" />
 
 
 

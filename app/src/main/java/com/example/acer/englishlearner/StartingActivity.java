@@ -59,13 +59,10 @@ StartingActivity extends AppCompatActivity  {
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (getName.equals(null) && getPassword.equals(null)) {
-                    Toast.makeText(StartingActivity.this, "Please create account", Toast.LENGTH_SHORT).show();
-                }
                 if (getName.equals(username.getText().toString()) && getPassword.equals(password.getText().toString())) {
                     Intent intent = new Intent(StartingActivity.this, MainActivity.class);
                     startActivity(intent);
-                    Toast.makeText(getBaseContext(), "Welcome" + "" + getName + "!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), "Welcome" + " " + getName + "!", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(StartingActivity.this, "Your username or password is not correct", Toast.LENGTH_SHORT).show();
                 }

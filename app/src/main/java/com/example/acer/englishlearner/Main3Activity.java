@@ -1,5 +1,6 @@
 package com.example.acer.englishlearner;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -23,14 +24,14 @@ public class Main3Activity extends AppCompatActivity {
                 new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {
                     @Override public void onItemClick(View view, int position) {
                         if(position == 0){
-
+                            Intent intent = new Intent(Main3Activity.this, MainActivityFragmentGrammar.class);
+                            startActivity(intent);
                         }
                         if(position == 1){
-
+                            Intent intent = new Intent(Main3Activity.this, MainActivityFragmentWritting.class);
+                            startActivity(intent);
                         }
-                        if (position == 2){
 
-                        }
                     }
                 })
         );

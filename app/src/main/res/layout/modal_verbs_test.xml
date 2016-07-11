@@ -14,7 +14,7 @@
         android:orientation="vertical"
         android:id="@+id/radio_modal_verbs1">
         <RadioButton
-            android:id="@+id/radio_answear1_verbs1"
+            android:id="@+id/radio_answear1_verbs7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Could"
@@ -97,7 +97,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="5. _________ I have a coffee please?"
+        android:text="5. _________ I smoke around children?"
         android:textSize="15dp"/>
     <RadioGroup
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -117,14 +117,6 @@
             android:text="Must not"
             android:onClick="onRadioButtonClicked"/>
     </RadioGroup>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Score:"/>
-    <TextView
-        android:id="@+id/score_modalverbs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0"
-        android:textSize="18sp"/>
+
+
 </LinearLayout>

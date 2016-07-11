@@ -26,6 +26,13 @@
         <activity android:name=".PassiveTransformations" />
         <activity android:name=".ModalVerbs" />
         <activity android:name=".ModalVerbsTest" />
+        <activity android:name=".WrittingAdapterStory" />
+        <activity android:name=".FragmentOneWritting" />
+        <activity android:name=".FragmentTwoWritting" />
+        <activity android:name=".MainActivityFragmentWritting" />
+        <activity android:name=".GrammarCausativeFormActivity" />
+        <activity android:name=".GrammarCausativeFormActivity2" />
+        <activity android:name=".GrammarCausativeFormActivity3"></activity>
     </application>
 
 </manifest>

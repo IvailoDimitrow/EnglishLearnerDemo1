@@ -118,6 +118,7 @@
         android:text="Score:"
         android:textSize="20sp"/>
     <TextView
+        android:id="@+id/score_causativeform"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"

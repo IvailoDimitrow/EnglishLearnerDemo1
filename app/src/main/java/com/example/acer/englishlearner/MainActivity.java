@@ -24,12 +24,17 @@ public class MainActivity extends AppCompatActivity {
                 new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {
                     @Override public void onItemClick(View view, int position) {
                        if(position == 0){
-                           Intent intent = new Intent(MainActivity.this, Main2Activity.class);
+                           Intent intent = new Intent();
+                           intent.setClass(MainActivity.this, Main2Activity.class);
                            startActivity(intent);
+//                           overridePendingTransition(R.animator.animation, R.animator.animation2);
                        }
                         if(position == 1){
-                            Intent intent = new Intent(MainActivity.this, Main3Activity.class);
+                            Intent intent = new Intent();
+                            intent.setClass(MainActivity.this, Main3Activity.class);
+
                             startActivity(intent);
+//                            overridePendingTransition(R.animator.animation, R.animator.animation2);
                         }
                         if (position == 2){
                             Intent intent = new Intent(MainActivity.this, WebviewDictionary.class);

@@ -53,7 +53,7 @@ StartingActivity extends AppCompatActivity  {
                         getPassword = C.getString(1);
                     }while(C.moveToNext());
                 }
-                Toast.makeText(getBaseContext(), "Signed up", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(), "Signed in", Toast.LENGTH_SHORT).show();
             }
         });
         ok.setOnClickListener(new View.OnClickListener() {

@@ -14,6 +14,7 @@
         android:text="1. John has been doing the work."
         android:textSize="18sp"/>
     <EditText
+        android:id="@+id/edt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="1.Transform into passive"/>
@@ -23,6 +24,7 @@
     android:text="2.Someone will finish the work by 5:00 PM."
     android:textSize="18sp"/>
     <EditText
+        android:id="@+id/edt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="2.Transform into passive"/>
@@ -32,16 +34,23 @@
         android:text="3.My mother would always make the pies."
         android:textSize="18sp"/>
     <EditText
+        android:id="@+id/edt3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="3.Transform into passive"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3. Jerry used to pay the bills."
+        android:text="4. Jerry used to pay the bills."
         android:textSize="18sp"/>
     <EditText
+        android:id="@+id/edt4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="3.Transform into passive"/>
+        android:hint="4.Transform into passive"/>
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="wrap_content"
+        android:text="Check"
+        android:layout_height="wrap_content" />
 </LinearLayout>
